@@ -1,7 +1,34 @@
-import React from 'react';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { newInStore, products } from "../data";
 
 const NewItemsSlider = () => {
-  return <div>NewItemsSlider</div>;
+  return (
+    <Swiper grabCursor={true} breakpoints={{
+      320:{
+        sliderPerView:2,
+        spaceBetween:18,
+
+      },
+      768:{
+        sliderPerView:3,
+        spaceBetween:20,
+      }
+    }}>
+      {newInStore.products.map((products, index) => {
+        return (
+          <SwiperSlide className="max-w-[265px]" key={index}>
+            <div className="relative">
+              <img src={products.image.type} alt="" />
+              <div className="absolute text-white bottom-[20px] w-full text-center text-[18px] lg:text-2xl font-medium">{products.name}</div>
+            </div>
+          </SwiperSlide>
+        );
+      })}
+    </Swiper>
+  );
 };
 
 export default NewItemsSlider;
