@@ -19,8 +19,8 @@ This project is a furniture shop product listing page developed using React and 
 ## Screenshots
 
 ![Home Page](ss/pic1.png)            
-![Mobile View](ss/pic2.png)
-![Mobile View](ss/pic3.png)
+![Mobile View](ss/pic2.png)    ![Mobile View](ss/pic3.png)
+
 
 
 
