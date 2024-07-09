@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project is a furniture shop product listing page developed using React and Tailwind CSS. The main goal of the project is to create a landing page with a visually appealing user interface (UI) and user experience (UX).
+This project is a furniture shop Advertising page developed using React and Tailwind CSS. The main goal of the project is to create a landing page with a visually appealing user interface (UI) and user experience (UX).
 
 ## Features
 
