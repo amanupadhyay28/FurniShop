@@ -19,8 +19,10 @@ This project is a furniture shop product listing page developed using React and 
 ## Screenshots
 
 ![Home Page](ss/pic1.png)            
-![Mobile View](ss/pic2.png)    ![Mobile View](ss/pic3.png)
-
+<div style="display: flex; justify-content: space-between;">
+  <img src="ss/pic2.png" alt="Home Page" width="45%" style="margin-right: 10px;">
+  <img src="ss/pic3.png" alt="Product Listing" width="45%">
+</div>
 
 
 
